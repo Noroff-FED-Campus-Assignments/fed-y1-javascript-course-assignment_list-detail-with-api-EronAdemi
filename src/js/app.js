@@ -116,4 +116,4 @@ https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/games.html#
    appendMovies(movies);
    console.log(movies);
  };
- 
+ window.handleSearch=handleSearch;
