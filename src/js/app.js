@@ -61,13 +61,13 @@ https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/games.html#
      );
      let data = await res.json();
      return data;
-   } catch (Error) {
+   } catch (error) {
      alert("an error happened while data fetching");
    }
  };
  
  const appendMovies = (movies) => {
-   if (movies == undefined) {
+   if (movies === undefined) {
      return false;
    }
  
