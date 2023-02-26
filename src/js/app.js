@@ -107,7 +107,7 @@ https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/games.html#
    window.location.href = url + queryString;
  };
  
- const main = async () => {
+ const handleSearch = async () => {
    let name = document.getElementById("search").value;
    console.log(name);
  
