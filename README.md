@@ -17,6 +17,7 @@ This project was bootstrapped with Vite.
 In this course assignment I was told to find an api key and create a website that uses the api key to give the user more information.
 I started by getting an api key from OMDb which is a free api key about movies from IMDb. After getting this api key I created a home page that consists of a home page button and a contact us shortcut. Then I created a search bar where you can search the movie you want to know more information about. After searching a movie, I made it possible to click the movie your looking after so you can get more detailed information about the movie. In the details page you can see the full movie title, when it was released, what rating it has on IMDB and a short plot.
 
+Contact form source : https://www.codebrainer.com/blog/contact-form-in-javascript
 
 ## Getting Started
 
