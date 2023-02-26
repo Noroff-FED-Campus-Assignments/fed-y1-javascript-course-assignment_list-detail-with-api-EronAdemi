@@ -14,25 +14,68 @@
     <!-- TODO: Import Javascript -->
     <title>Contact Us | _REPLACE_SITE_NAME</title>
   </head>
-  <body class="animate__animated animate__fadeIn">
-    <header class="l-header">
-      <h1>Contact Us</h1>
-    </header>
-
-    <main class="l-main">
-      <article role="doc-introduction">
-        <h2>Contact form</h2>
-
-        <p>_REPLACE_INTRODUCTION_</p>
-      </article>
-
-      <section role="form-section">
-        <!-- TODO: Creat Form elements here -->
-      </section>
-    </main>
-
-    <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
-    </footer>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 20px;
+      height: 30px;
+      width: 250px;
+    }
+    textarea {
+      display: block;
+    }
+    button {
+      margin-top: 20px;
+      width: 250px;
+      height: 30px;
+    }
+  </style>
+  <body>
+    <nav id="navbar" style="display: flex">
+      <div><a href="index.html">Home</a></div>
+      <div style="margin-left: 20px; margin-bottom: 20px">
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
+    <form onsubmit="handleSubmit()">
+      <label for="name"> Your Name:</label>
+      <input
+        required
+        type="text"
+        name="name"
+        placeholder="Type your name here"
+      />
+      <label for="subject"> Subject</label>
+      <input
+        required
+        type="text"
+        name="subject"
+        minlength="10"
+        placeholder="Type subject here"
+      />
+      <label for="email">Your Email</label>
+      <input
+        type="email"
+        name="email"
+        id=""
+        placeholder="Type your E-mail adress"
+      />
+      <label for="address">Your Message</label>
+      <textarea
+        name="address"
+        id=""
+        cols="30"
+        rows="10"
+        minlength="25"
+      ></textarea>
+      <!-- <button  onsubmit="handleSubmit()" >Send</button> -->
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
+
+<script>
+  const handleSubmit = () => {
+    alert("Your Message have been successfully sended");
+  };
+</script>
