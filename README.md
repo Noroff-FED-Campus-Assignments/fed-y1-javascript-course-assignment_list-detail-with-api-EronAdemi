@@ -8,9 +8,9 @@ This project was bootstrapped with Vite.
 ## Resources
 
 - [Design](_LINK_TO_FIGMA_)
-- [Production deploy](_LINK_TO_WEBSITE_)
+- [Production deploy](https://moviebayeron.netlify.app/)
 - [Deployment CI](_LINK_TO_NETLIFY_VERCEL_DASHBOARD_)
-- [API Docs](_LINK_TO_API_DOCS_)
+- [API Docs](https://www.omdbapi.com/)
 
 ## Report
 
